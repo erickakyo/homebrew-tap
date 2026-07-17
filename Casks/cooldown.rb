@@ -17,6 +17,8 @@ cask "cooldown" do
 
   app "Cooldown.app"
 
+  uninstall quit: "solutions.salto.cooldown"
+
   zap trash: "~/Library/Preferences/solutions.salto.cooldown.plist"
 
   caveats <<~EOS
