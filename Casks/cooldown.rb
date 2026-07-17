@@ -20,8 +20,9 @@ cask "cooldown" do
   zap trash: "~/Library/Preferences/solutions.salto.cooldown.plist"
 
   caveats <<~EOS
-    Cooldown is not notarized by Apple yet. If macOS blocks the first launch,
-    right-click Cooldown.app in /Applications and choose "Open", or run:
+    Cooldown is not notarized by Apple yet. If macOS blocks the first launch
+    ("Apple could not verify..."), click OK, then go to System Settings >
+    Privacy & Security and click "Open Anyway" — or run:
       xattr -dr com.apple.quarantine /Applications/Cooldown.app
   EOS
 end
