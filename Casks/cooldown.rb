@@ -1,6 +1,6 @@
 cask "cooldown" do
-  version "0.1.2"
-  sha256 "a21d934294b8a41fe6a16c3fa7af8a8d43f5300f679f1688cecbaf10810817ab"
+  version "0.1.3"
+  sha256 "07b58d45524a8f24b596be94a16f16f9a6c6c71a3af20688197154c2553d5157"
 
   url "https://github.com/erickakyo/cooldown/releases/download/v#{version}/Cooldown-#{version}.dmg"
   name "Cooldown"
